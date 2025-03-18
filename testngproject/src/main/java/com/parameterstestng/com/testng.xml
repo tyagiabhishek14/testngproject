@@ -1,0 +1,20 @@
+<suite name="parameter testng suite">
+	<test name="parameter testng test">
+	
+	<parameter name="firstname" value="abhishek"/>
+	<parameter name="lastname" value="tyagi"/>
+	<parameter name="password" value="abhishek@123"/>
+	<parameter name="confirmpassword" value="abhishek@123"/>
+	<parameter name="email" value="tyagiabhishek14@gmail.com"/>
+		<classes>
+			<class name="com.parameterstestng.com.ParameterConcept" />
+			
+		</classes>
+	
+
+
+	</test>
+
+
+</suite>
+	

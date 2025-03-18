@@ -1,0 +1,13 @@
+<suite name="first testng suite">
+	<test name="First testng test">
+		<classes>
+			<class name="testngbasics.InvocationCount" />
+			<class name="testngbasics.MangentoTestingBoard" />
+		</classes>
+
+
+	</test>
+
+
+</suite>
+	
