@@ -2,43 +2,44 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-18T16:31:51 IST" name="parameter testng suite" finished-at="2025-03-18T16:32:03 IST" duration-ms="11668">
+  <suite started-at="2025-03-20T19:59:15 IST" name="Default suite" finished-at="2025-03-20T19:59:15 IST" duration-ms="102">
     <groups>
     </groups>
-    <test started-at="2025-03-18T16:31:51 IST" name="parameter testng test" finished-at="2025-03-18T16:32:03 IST" duration-ms="11668">
-      <class name="com.parameterstestng.com.ParameterConcept">
-        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parameterstestng.com.ParameterConcept@65fb9ffc]" started-at="2025-03-18T16:31:51 IST" name="signUpTest" finished-at="2025-03-18T16:32:03 IST" duration-ms="11648" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abhishek]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tyagi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[abhishek@123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[abhishek@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[tyagiabhishek14@gmail.com]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-03-20T19:59:15 IST" name="Default test" finished-at="2025-03-20T19:59:15 IST" duration-ms="102">
+      <class name="testngbasics.FirstTestngClass">
+        <test-method is-config="true" signature="beforeSuitemethod()[pri:0, instance:testngbasics.FirstTestngClass@247310d0]" started-at="2025-03-20T19:59:15 IST" name="beforeSuitemethod" finished-at="2025-03-20T19:59:15 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUpTest -->
-      </class> <!-- com.parameterstestng.com.ParameterConcept -->
-    </test> <!-- parameter testng test -->
-  </suite> <!-- parameter testng suite -->
+        </test-method> <!-- beforeSuitemethod -->
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:testngbasics.FirstTestngClass@247310d0]" started-at="2025-03-20T19:59:15 IST" name="beforeTestMethod" finished-at="2025-03-20T19:59:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testngbasics.FirstTestngClass@247310d0]" started-at="2025-03-20T19:59:15 IST" name="beforeClass" finished-at="2025-03-20T19:59:15 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodMethod()[pri:0, instance:testngbasics.FirstTestngClass@247310d0]" started-at="2025-03-20T19:59:15 IST" name="beforeMethodMethod" finished-at="2025-03-20T19:59:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="testMethod()[pri:0, instance:testngbasics.FirstTestngClass@247310d0]" started-at="2025-03-20T19:59:15 IST" name="testMethod" finished-at="2025-03-20T19:59:15 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:testngbasics.FirstTestngClass@247310d0]" started-at="2025-03-20T19:59:15 IST" name="afterMethodMethod" finished-at="2025-03-20T19:59:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:testngbasics.FirstTestngClass@247310d0]" started-at="2025-03-20T19:59:15 IST" name="afterClassMethod" finished-at="2025-03-20T19:59:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:testngbasics.FirstTestngClass@247310d0]" started-at="2025-03-20T19:59:15 IST" name="afterTestMethod" finished-at="2025-03-20T19:59:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- testngbasics.FirstTestngClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
